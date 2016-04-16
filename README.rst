@@ -49,6 +49,11 @@ pour vous), soit : ::
   $ make # Génère la doc en HTML chez vous
   $ x-www-browser gen/src/3.5/Doc/build/html/index.html
 
+*Note : vous aurez, entre autres, besoin des commandes pip3, sphinx-build et
+markdown. Installez tout ça avec* ``apt-get install python3-pip sphinx-common markdown``.
+
+Pour savoir par où commencer, allez voir `cette issue <https://github.com/AFPy/python_doc_fr/issues/32>`_.
+
 Éditer les fichiers avec l'éditeur de votre choix, il en existe beaucoup:
 
 * Le classique, fortement conseillé: `poedit <http://www.poedit.net/>`_
